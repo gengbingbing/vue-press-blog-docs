@@ -1,8 +1,8 @@
 /*
  * @Author: bingbing.geng
  * @Date: 2022-09-14 15:40:00
- * @LastEditTime: 2022-09-15 09:12:56
- * @FilePath: \vuepress-starter\docs\.vuepress\config.js
+ * @LastEditTime: 2022-09-15 11:35:45
+ * @FilePath: \vue-press-blog-docs\docs\.vuepress\config.js
  */
 module.exports = {
   theme: 'vdoing',
@@ -143,7 +143,7 @@ module.exports = {
       moreArticle: '/archives' // “更多文章”跳转的页面，默认'/archives'
     },
     rightMenuBar: false, // 是否显示右侧文章大纲栏，默认true (屏宽小于1300px下无论如何都不显示)
-    // sidebarOpen: false, // 初始状态是否打开左侧边栏，默认true
+    sidebarOpen: false, // 初始状态是否打开左侧边栏，默认true
     pageButton: false, // 是否显示快捷翻页按钮，默认true
 
     // 默认外观模式（用户未在页面手动修改过模式时才生效，否则以用户设置的模式为准），可选：'auto' | 'light' | 'dark' | 'read'，默认'auto'。
